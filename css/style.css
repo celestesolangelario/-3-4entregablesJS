@@ -49,7 +49,7 @@
 /*MEDIAS QUERYS*/
 /*anidamiento*/
 .index {
-    background-image: url(../../src/assets/img/fondoindex.webp);
+    background-image: url("../../src/assets/img/fondoindex.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -140,15 +140,15 @@ header .fondo-menu ul li a {
 }
 
 .imagenes-index .imagen-index01 {
-    background-image: url(../../src/assets/img/index1.webp);
+    background-image: url("../../src/assets/img/index1.webp");
 }
 
 .imagenes-index .imagen-index02 {
-    background-image: url(../../src/assets/img/index2.webp);
+    background-image: url("../../src/assets/img/index2.webp");
 }
 
 .imagenes-index .imagen-index03 {
-    background-image: url(../../src/assets/img/index3.webp);
+    background-image: url("../../src/assets/img/index3.webp");
 }
 
 /*comienzo del footer*/
@@ -464,7 +464,7 @@ h2 {
 
 /*body fondo*/
 .fondo-productos {
-    background-image: url("../css/src/img/otoñoDM.webp");
+    background-image: url("../css/src/assets/img/otoñoDM.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -607,6 +607,14 @@ h2 {
 
 .grilla .h-card .imagenes-produc18 {
     background-image: url("../css/src/assets/img/mochilas.webp");
+}
+
+.grilla .h-card .imagenes-produc19 {
+    background-image: url("../css/src/assets/img/cartera.webp");
+}
+
+.grilla .h-card .imagenes-produc20 {
+    background-image: url("../css/src/assets/img/hamaca.webp");
 }
 
 .grilla .h-card .card-text {

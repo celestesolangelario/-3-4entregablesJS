@@ -122,7 +122,7 @@ let productos = [{
     },
     {
         id: 16,
-        name: "Lampara",
+        name: "Puff",
         section: "Hogar",
         price: 5500,
         description: "Hecho a mano, hilo algodón crudo almfombra y puff con patas de pino laqueado Color natural.",
@@ -130,17 +130,37 @@ let productos = [{
     },
     {
         id: 17,
-        name: "Llaveros",
+        name: "Lampara",
         section: "Hogar",
         price: 5500,
         description: "Hecho a mano, hilo algodón crudo almfombra y puff con patas de pino laqueado Color natural.",
         img: "../css/src/assets/img/llaveros.webp"
-    }, {
+    },
+    {
         id: 18,
-        name: "Mochilas",
-        section: "Oficina",
+        name: "llaveros",
+        section: "Hogar",
         price: 5500,
         description: "Hecho a mano, hilo algodón crudo almfombra y puff con patas de pino laqueado Color natural.",
         img: "../css/src/assets/img/mochilas.webp"
     },
+    {
+        id: 19,
+        name: "Mochila",
+        section: "Oficina",
+        price: 5500,
+        description: "Hecho a manoverdes y azul con detalle de cuero .",
+        img: "../css/src/assets/img/cartera.webp"
+    },
+
+    {
+        id: 20,
+        name: "Cartera",
+        section: "Jardin",
+        price: 5500,
+        description: "Hecho a mano con hilos reforzados.",
+        img: "../css/src/assets/img/hamaca.webp"
+    },
+
+
 ]
