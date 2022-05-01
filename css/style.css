@@ -1,0 +1,771 @@
+@charset "UTF-8";
+/* importar*/
+/* fuentes de google */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Work+Sans&family=Yuji+Hentaigana+Akari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Work+Sans&family=Yuji+Hentaigana+Akari&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;500&display=swap');
+
+:root {
+    --arima: "Arima Madurai", cursive;
+    --lato: 'Lato', sans-serif;
+    --alegreya: 'Alegreya Sans', sans-serif;
+}
+
+.f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp,
+.logo,
+.header nav.linke {
+    display: flex;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+}
+
+.bg-violeta {
+    background-color: #674491 !important;
+}
+
+/*MEDIAS QUERYS*/
+/*operadores*/
+.index {
+    width: 6rem;
+    height: 10rem;
+}
+
+.img-00 {
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.video-00 .video-01 .video-02 {
+    width: 12rem;
+    height: 30rem;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    margin-left: 10%;
+}
+
+/*MEDIAS QUERYS*/
+/*anidamiento*/
+.index {
+    background-image: url(../../src/assets/img/fondoindex.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.banner-index {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+.banner-logo-img {
+    height: 17em;
+    width: 100%;
+}
+
+/*comienzo del header*/
+header .header {
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    header .header {
+        max-height: 3.5rem;
+        width: 100%;
+    }
+}
+
+header .logo {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+header .logo-img {
+    max-width: 80%;
+}
+
+header .fondo-menu {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, white 20%, white 80%, rgba(0, 0, 0, 0) 100%) !important;
+}
+
+header .fondo-menu ul li {
+    list-style: none;
+    font-size: xx-large;
+    text-align: center;
+    font-family: "Arima Madurai", cursive;
+}
+
+header .fondo-menu ul li a {
+    color: #ab748b !important;
+    text-shadow: 0px 3px 3px rgba(9, 4, 4, 0.6);
+    transition: all 0.5s;
+}
+
+.nav-link:hover {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
+
+.index-inv {
+    font-family: "Arima Madurai", cursive;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: white;
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.imagenes-index {
+    background-color: #935f6994;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400PX;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+}
+
+.imagenes-index .index-img {
+    background-size: cover;
+    border-radius: 15px;
+    box-shadow: 2px 0px 9px 3px #060606a1;
+    width: 30rem;
+    height: 40rem;
+    min-width: 350px;
+}
+
+.imagenes-index .imagen-index01 {
+    background-image: url(../../src/assets/img/index1.webp);
+}
+
+.imagenes-index .imagen-index02 {
+    background-image: url(../../src/assets/img/index2.webp);
+}
+
+.imagenes-index .imagen-index03 {
+    background-image: url(../../src/assets/img/index3.webp);
+}
+
+/*comienzo del footer*/
+footer {
+    background-color: rgba(66, 63, 63, 0.41);
+    width: 100%;
+    border-top: 5px solid rgba(255, 255, 255, 0.74);
+    width: 100%;
+}
+
+footer .foo {
+    display: flex;
+    font-family: "Arima Madurai", cursive;
+    font-size: 1.5em;
+    color: white;
+    padding: 1em 2em;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
+}
+
+footer .foo .tit-foot {
+    justify-self: center;
+}
+
+footer .foo .ig-face a:last-of-type svg {
+    margin: 24px 0;
+    fill: #97487d;
+}
+
+footer .foo .ig-face svg {
+    fill: white;
+}
+
+footer .linke {
+    padding-top: 1rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 320px) {
+    footer {
+        max-height: 3.5rem;
+        width: 100%;
+    }
+}
+
+/*fin del footer*/
+.fondo-con-com {
+    background-image: url("../../src/assets/img/fondo-contactanos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: hard-light;
+    background-color: #0f0b02;
+}
+
+.f-comp .carrito {
+    display: flex;
+}
+
+.f-comp .carrito {
+    justify-content: center;
+    padding: 2rem;
+}
+
+.f-comp .boton {
+    display: flex;
+}
+
+.f-comp .boton {
+    justify-content: center;
+    border-radius: 30%;
+    margin: 1rem;
+}
+
+.f-comp .boton-01 {
+    background-color: #ab748b;
+    font-family: "Arima Madurai", cursive;
+    font-size: xx-large;
+}
+
+.f-comp .pagos-00 {
+    display: inline;
+}
+
+.f-comp .pagos-00 .mp {
+    padding: 0rem 3rem 1rem 4rem;
+    font-family: "Arima Madurai", cursive;
+    color: black;
+    display: flex;
+    font-size: xx-large;
+    background-color: #8b7a7ac7;
+}
+
+.nombre {
+    display: flex;
+}
+
+.nombre {
+    justify-content: center;
+    margin: 1rem;
+}
+
+.nombre-01 {
+    display: flex;
+}
+
+.nombre-01 {
+    justify-content: center;
+    font-size: medium;
+    font-family: "Arima Madurai", cursive;
+    color: #276569;
+}
+
+.nombre-01 .contactanos-01 {
+    margin: 1rem;
+    height: 187px;
+    width: 298px;
+}
+
+.boton-02 {
+    display: flex;
+}
+
+.boton-02 {
+    justify-content: center;
+    border-radius: 30%;
+    padding-top: 1rem;
+}
+
+.boton-03 {
+    background-color: #ab748b;
+    font-family: "Arima Madurai", cursive;
+    font-size: xx-large;
+}
+
+.con-01 {
+    font-family: "Arima Madurai", cursive;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: white;
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.c-m {
+    background-color: #8b7a7ac7;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100%;
+    margin: 4rem 0;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Arima Madurai", cursive;
+}
+
+.c-m .envia-mail {
+    text-align: end;
+}
+
+.c-m .envia-mail a {
+    color: white;
+    text-decoration: none;
+}
+
+.c-m .envia-mail a :hover {
+    color: #674491;
+}
+
+.c-m .envia-mail a svg {
+    justify-self: center;
+}
+
+.c-m .wp {
+    text-align: center;
+}
+
+.c-m .wp a {
+    color: white;
+    text-decoration: none;
+}
+
+.c-m .wp a :hover {
+    color: #674491;
+}
+
+.fondo-cursos {
+    background-image: url("../../src/assets/img/Fondocursos.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #181822d1;
+    background-blend-mode: hard-light;
+}
+
+/* comienzo de seccion de cursos*/
+.aprende-cn {
+    font-family: "Arima Madurai", cursive;
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: white;
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.cursos {
+    list-style-type: none;
+}
+
+.cursos .cursos-00 {
+    margin: auto;
+    text-align: center;
+}
+
+.nivel-curso {
+    padding: auto;
+    align-items: center;
+    background-color: rgba(44, 20, 68, 0.4);
+    color: white;
+    font-size: xx-large;
+    font-family: "Arima Madurai", cursive;
+    list-style-type: none;
+    margin-left: -2rem;
+}
+
+.curso-descrip {
+    font-family: "Arima Madurai", cursive;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.4);
+    color: white;
+    font-size: 20px;
+    margin-left: -2rem;
+}
+
+.dias-cursos {
+    font-family: "Arima Madurai", cursive;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.73);
+    color: white;
+    font-size: 30px;
+    margin-left: -2rem;
+}
+
+.cursos-completo {
+    font-family: "Arima Madurai", cursive;
+    margin: auto;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.4);
+    color: white;
+    font-size: 30px;
+    margin-left: -2rem;
+}
+
+.bot-color {
+    background-color: #674491;
+    color: white;
+    font-family: "Alegreya", serif;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.Nosotros {
+    background-image: url("../src/assets/img/tapiz4.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h2 {
+    font-family: "Arima Madurai", cursive;
+    margin: auto;
+    text-align: center;
+    background-color: #8b7a7ac7;
+    color: white;
+    font-size: 80px;
+}
+
+.FONDO-00 {
+    background-color: #8b7a7ac7;
+}
+
+.col p {
+    backdrop-filter: blur 20px;
+    margin-top: 4%;
+    padding: 2em 5rem;
+    color: white;
+    font-size: 24px;
+    box-shadow: #5a9397b4;
+}
+
+.text-color,
+.text-color01,
+.text-color02 {
+    font-family: "Arima Madurai", cursive;
+}
+
+.text-color01 {
+    text-align: center;
+}
+
+.text-color02 {
+    text-align: right;
+}
+
+/*body fondo*/
+.fondo-productos {
+    background-image: url("../css/src/img/otoñoDM.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #552e55ba;
+    background-blend-mode: screen;
+}
+
+/*inicio de seccion productos*/
+.Productos-02 {
+    font-family: "Arima Madurai", cursive;
+    margin-top: 2rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: white;
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+.grilla {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fill, minmax(2fr, 1fr));
+    margin: 0 0 2em 0;
+}
+
+.grilla .card {
+    padding: 0.25rem;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 16px solid rgba(255, 255, 255, 0.3);
+    max-width: 30em;
+    height: auto;
+    color: #ab748b;
+}
+
+.grilla .h-card {
+    height: auto;
+}
+
+.grilla .h-card .card-title {
+    font-family: "Arima Madurai", cursive;
+    color: #462222;
+    font-size: 40px;
+}
+
+.grilla .h-card .imagenes-produc {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.grilla .h-card .imagenes {
+    width: 100%;
+    height: 30em;
+    background-size: cover;
+    background-position: center;
+}
+
+.grilla .h-card .imagenes-produc0 {
+    background-image: url("../css/src/assets/img/espejo1.webp");
+}
+
+.grilla .h-card .imagenes-produc1 {
+    background-image: url("../css/src/assets/img/espejo2.webp");
+    background-repeat: no-repeat;
+}
+
+.grilla .h-card .imagenes-produc2 {
+    background-image: url("../css/src/assets/img/espejo3.webp");
+}
+
+.grilla .h-card .imagenes-produc3 {
+    background-image: url("../css/src/assets/img/tapiz.webp");
+}
+
+.grilla .h-card .imagenes-produc4 {
+    background-image: url("../css/src/assets/img/tapiz2.webp");
+}
+
+.grilla .h-card .imagenes-produc5 {
+    background-image: url("../css/src/assets/img/tapiz3.webp");
+    background-position-x: 2px;
+}
+
+.grilla .h-card .imagenes-produc6 {
+    background-image: url("../css/src/assets/img/tapiz4.webp");
+}
+
+.grilla .h-card .imagenes-produc7 {
+    background-image: url("../css/src/assets/img/tapiz5.webp");
+    background-repeat: no-repeat;
+}
+
+.grilla .h-card .imagenes-produc8 {
+    background-image: url("../css/src/assets/img/tapiz6.webp");
+    background-position-y: -5.125em;
+}
+
+.grilla .h-card .imagenes-produc9 {
+    background-image: url("../css/src/assets/img/tapiz7.webp");
+    background-position-y: -19.375;
+    background-repeat: no-repeat;
+}
+
+.grilla .h-card .imagenes-produc10 {
+    background-image: url("../css/src/assets/img/tapiz8.webp");
+}
+
+.grilla .h-card .imagenes-produc11 {
+    background-image: url("../css/src/assets/img/tapiz9.webp");
+    background-position-y: -7em;
+    background-repeat: no-repeat;
+}
+
+.grilla .h-card .imagenes-produc12 {
+    background-image: url("../css/src/assets/img/tapices.webp");
+}
+
+.grilla .h-card .imagenes-produc13 {
+    background-image: url("../css/src/assets/img/alfombra.webp");
+}
+
+.grilla .h-card .imagenes-produc14 {
+    background-image: url("../css/src/assets/img/almohadonestapizalfombra.webp");
+}
+
+.grilla .h-card .imagenes-produc15 {
+    background-image: url("../css/src/assets/img/puffalfombra.webp");
+}
+
+.grilla .h-card .imagenes-produc16 {
+    background-image: url("../css/src/assets/img/lampara.webp");
+}
+
+.grilla .h-card .imagenes-produc17 {
+    background-image: url("../css/src/assets/img/llaveros.webp");
+}
+
+.grilla .h-card .imagenes-produc18 {
+    background-image: url("../css/src/assets/img/mochilas.webp");
+}
+
+.grilla .h-card .card-text {
+    font-family: "Arima Madurai", cursive !important;
+    color: #462222 !important;
+    font-size: 30px !important;
+    margin-top: 5% !important;
+}
+
+.grilla .h-card .bot-color {
+    background-color: #674491;
+    color: white;
+    font-family: "Alegreya", serif;
+    display: flex;
+    height: 2rem;
+    width: 7rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrito {
+    position: sticky;
+    bottom: 1.5em;
+    background-color: #d29546af;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+    border: 5px solid black;
+    box-shadow: 0px 3px 4px 1px black;
+    margin-bottom: 1.5em;
+    fill: black;
+    transition: all .5s;
+    cursor: pointer;
+    z-index: 10;
+    left: 93.5%;
+    display: flex;
+}
+
+
+.carrito:hover {
+    background-color: #d29646;
+    box-shadow: 0px 3px 5px 2px black;
+    transform: scale(1.1);
+    z-index: 10;
+
+
+}
+
+.cartList {
+    background-color: #fffdfdd4;
+    height: auto;
+    width: 400px;
+    position: absolute;
+    bottom: 0;
+    right: 0%;
+    color: #190822;
+    padding: 15px 41px;
+    box-shadow: 0px 3px 4px 1px black;
+    margin: 54px 0 80px 0px;
+    z-index: 10;
+
+}
+
+.cartempty {
+    display: none;
+}
+
+
+#cartList div div[id] {
+    color: rgb(20, 32, 200);
+    text-align: right;
+    width: 2em;
+}
+
+/* Purchase.html */
+
+.purchase-product-img {
+    width: 14em;
+    max-height: 8em;
+    object-fit: fill;
+}
+
+.purchase-container {
+    background-color: rgba(255, 255, 255, 0.685);
+    display: flex;
+    flex-direction: column;
+    font-family: "Arima Madurai",
+        cursive;
+}
+
+.purchase-item-container {
+    display: flex;
+    margin: 1em 1em
+}
+
+.purchase-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 1em
+}
+
+.total-container {
+    background-color: #ffffffcb;
+    color: #2b2b2b;
+    text-align: right;
+    padding: 0.5em 0;
+    padding-right: 1em;
+    font-family: "Arima Madurai", cursive;
+}
+
+.total-usd {
+    background-color: rgba(255, 255, 255, 0.685);
+    padding: 0.5em 1em 0.5em 0;
+}
+
+.buyButton {
+    background-color: #531b4fa8;
+    color: white;
+    width: 100%;
+    border: 0px solid transparent;
+    padding: 0em 0.5em;
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps;
+    /* font-weight: bold; */
+    font-family: var(--alegreya);
+    margin-bottom: 0.5em;
+    -webkit-font-smoothing: antialiased;
+}
+
+.buyButton:hover {
+    background-color: #ac50a48e;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+
+.idContainer {
+    background-color: black;
+    color: white;
+    padding: 0.5em 1em;
+    text-align: center;
+}
+
+/* Clase adicional */
+.w-65 {
+    width: 65%;
+}
+
+.rounded {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
